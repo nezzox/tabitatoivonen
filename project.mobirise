@@ -34,7 +34,7 @@
     "gdpr": "Vi använder inget mer än de uppgifter du anger frivilligt i syfte att hålla kontakt med er. Ingenting sparas i syfte för riktad marknadsföring eller för att säljas vidare. För konversation över öppna mailsystem som följer efter detta ansvarar utgivaren för mail-adressen att skydda din integritet.",
     "favicon": "",
     "noImageResize": "",
-    "global-footer": "",
+    "global-footer": "<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"http://schema.org/\",\r\n  \"@type\": \"Person\",\r\n  \"name\": \"Tabita Toivonen\",\r\n  \"url\": \"http://www.tabitatoivonen.tk\",\r\n  \"image\": \"https://nezzox.github.io/tabitatoivonen/assets/images/tabitalogo-1-original-1080x1080.png\",\r\n  \"jobTitle\": \"Fotograf\",\r\n  \"worksFor\": {\r\n    \"@type\": \"Organization\",\r\n    \"name\": \"Frilans\"\r\n  }  \r\n}\r\n</script>",
     "google-analytics": "<!-- Google Tag Manager (noscript) -->\r\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NHWMR2D\"\r\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\r\n<!-- End Google Tag Manager (noscript) -->",
     "cookiesAlert": "Vi använder cookies för att ge bättre funktionalitet på denna sajt. Genom att fortsätta använda sajten godkänner du detta.",
     "siteUrl": "undefined",
