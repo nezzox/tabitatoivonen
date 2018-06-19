@@ -39,7 +39,7 @@
     "cookiesAlert": "Vi använder cookies för att ge bättre funktionalitet på denna sajt. Genom att fortsätta använda sajten godkänner du detta.",
     "siteUrl": "undefined",
     "versionFirst": "4.7.7",
-    "uniqCompNum": 20,
+    "uniqCompNum": 21,
     "versionPublish": "4.7.7",
     "screenshot": "screenshot.png"
   },
@@ -976,6 +976,27 @@
           "_once": false,
           "_params": {},
           "_anchor": "form1-h"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#cccccc\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><b>Fakturering kommer ske via ett frilans fakturerings bolag. </b>Priset kommer vara enligt tidigare överrenskommelse så inga otrevliga överraskningar sker. Priset inkluderar sociala avgifter, skatt, moms, ev resekostnad och arbetsgivarekostnader. Betalning via swish finns som alternativ via bolaget.</div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qVpPKcgVvo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-k"
         },
         {
           "_styles": {
