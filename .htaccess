@@ -1,0 +1,9 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^nezzox.github.io/tabitatoivonen/?$ /tabitatoivonen.tk/
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
