@@ -1,2 +1,0 @@
-# tabitatoivonen
-GitHub Pages
