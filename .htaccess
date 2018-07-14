@@ -1,7 +1,9 @@
 //Rewrite to www
 Options +FollowSymLinks
 RewriteEngine on
-RewriteRule ^nezzox.github.io/tabitatoivonen/?$ /tabitatoivonen.tk/
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^https://nezzox.github.io/tabitatoivonen/$ [NC] 
+RewriteRule ^(.*) https://tabitatoivonen.tk/$1 [L,R=301]
 
 //Prevent viewing of .htaccess file
 <Files .htaccess>
