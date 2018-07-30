@@ -34,12 +34,12 @@
     "gdpr": "Vi använder inget mer än de uppgifter du anger frivilligt i syfte att hålla kontakt med er. Ingenting sparas i syfte för riktad marknadsföring eller för att säljas vidare. För konversation över öppna mailsystem som följer efter detta ansvarar utgivaren för mail-adressen att skydda din integritet.",
     "favicon": "",
     "noImageResize": "",
-    "global-footer": "<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"http://schema.org/\",\r\n  \"@type\": \"Person\",\r\n  \"name\": \"Tabita Toivonen\",\r\n  \"url\": \"http://www.tabitatoivonen.tk\",\r\n  \"image\": \"https://nezzox.github.io/tabitatoivonen/assets/images/tabitalogo-1-original-1080x1080.png\",\r\n  \"jobTitle\": \"Fotograf\",\r\n  \"worksFor\": {\r\n    \"@type\": \"Organization\",\r\n    \"name\": \"Frilans\"\r\n  }  \r\n}\r\n</script>\r\n<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"http://schema.org/\",\r\n  \"@type\": \"WebSite\",\r\n  \"name\": \"Tabita Toivonen Frilansfotograf\",\r\n  \"alternateName\": \"Frilansfotograf Tabita Toivonen\",\r\n  \"url\": \"http://www.tabitatoivonen.tk\"\r\n}\r\n</script>\r\n<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"http://schema.org\",\r\n  \"@type\": \"Organization\",\r\n  \"name\": \"Tabita Toivonen\",\r\n  \"alternateName\": \"Frilansfotograf\",\r\n  \"url\": \"http://www.tabitatoivonen.tk\",\r\n  \"logo\": \"https://nezzox.github.io/tabitatoivonen/assets/images/tabitalogo-1-original-1080x1080.png\",\r\n  \"contactPoint\": {\r\n    \"@type\": \"ContactPoint\",\r\n    \"telephone\": \"+46736732019\",\r\n    \"contactType\": \"customer service\",\r\n    \"contactOption\": \"TollFree\",\r\n    \"areaServed\": \"SE\",\r\n    \"availableLanguage\": [\"English\",\"Swedish\"]\r\n  }\r\n}\r\n</script>",
+    "global-footer": "",
     "google-analytics": "<!-- Google Tag Manager (noscript) -->\r\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NHWMR2D\"\r\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\r\n<!-- End Google Tag Manager (noscript) -->",
     "cookiesAlert": "Vi använder cookies för att ge bättre funktionalitet på denna sajt. Genom att fortsätta använda sajten godkänner du detta.",
     "siteUrl": "undefined",
     "versionFirst": "4.7.7",
-    "uniqCompNum": 21,
+    "uniqCompNum": 24,
     "versionPublish": "4.7.7",
     "screenshot": "screenshot.png"
   },
@@ -1049,6 +1049,24 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "{JS_CODE_0}\n{JS_CODE_1}\n{JS_CODE_2}",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-n",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"application/ld+json\">\n{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Tabita Toivonen\",\n  \"url\": \"http://www.tabitatoivonen.tk\",\n  \"image\": \"https://nezzox.github.io/tabitatoivonen/assets/images/tabitalogo-1-original-1080x1080.png\",\n  \"jobTitle\": \"Fotograf\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Frilans\"\n  }  \n}\n</script>",
+            "<script type=\"application/ld+json\">\n{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"WebSite\",\n  \"name\": \"Tabita Toivonen Frilansfotograf\",\n  \"alternateName\": \"Frilansfotograf Tabita Toivonen\",\n  \"url\": \"http://www.tabitatoivonen.tk\"\n}\n</script>",
+            "<script type=\"application/ld+json\">\n{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Tabita Toivonen\",\n  \"alternateName\": \"Frilansfotograf\",\n  \"url\": \"http://www.tabitatoivonen.tk\",\n  \"logo\": \"https://nezzox.github.io/tabitatoivonen/assets/images/tabitalogo-1-original-1080x1080.png\",\n  \"contactPoint\": {\n    \"@type\": \"ContactPoint\",\n    \"telephone\": \"+46736732019\",\n    \"contactType\": \"customer service\",\n    \"contactOption\": \"TollFree\",\n    \"areaServed\": \"SE\",\n    \"availableLanguage\": [\"English\",\"Swedish\"]\n  }\n}\n</script>"
+          ]
         },
         {
           "_styles": {

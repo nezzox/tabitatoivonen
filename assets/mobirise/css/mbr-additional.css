@@ -2044,6 +2044,12 @@ body {
 .cid-qVpBeGKrOV .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
+#custom-html-n {
+  /* Type valid CSS here */
+}
+#custom-html-n .my-image {
+  width: 100%;
+}
 .cid-qVdum9l5q7 {
   padding-top: 45px;
   padding-bottom: 45px;
